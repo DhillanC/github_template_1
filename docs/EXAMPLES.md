@@ -58,21 +58,21 @@ Then they can understand the current status of the work
 
 ## Pull Request
 
-**Summary**
+### Summary
 
 Adds a project board guide with recommended columns, ready and done definitions, and working rules.
 
-**Linked issue**
+### Linked Issue
 
 Closes #12
 
-**Checklist**
+### Checklist
 
 - [x] The change is focused and easy to review.
 - [x] Acceptance criteria are met.
 - [x] Documentation was updated.
 - [x] Manual checks were completed.
 
-**Notes for reviewers**
+### Notes for Reviewers
 
 Review the column names and done criteria to confirm they match the team's workflow.
