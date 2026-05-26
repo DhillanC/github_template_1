@@ -12,6 +12,7 @@ Use this template when you want a clean repository with ready-made issue and PR 
 - Technical task issue template
 - Pull request template
 - Contribution guide
+- Mermaid diagram guidelines
 - Suggested workflow for moving work from issue to pull request
 - MIT license
 
@@ -56,6 +57,7 @@ Before opening a pull request:
 
 - Keep the change focused on one issue or one logical unit of work.
 - Update documentation when behavior or usage changes.
+- Follow the [Mermaid diagram guidelines](docs/MERMAID.md) when adding diagrams.
 - Add or update tests when the project has test coverage.
 - Confirm the acceptance criteria are satisfied.
 

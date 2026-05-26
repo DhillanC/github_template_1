@@ -30,3 +30,7 @@ Good pull requests should include:
 - Screenshots or evidence when useful
 
 Avoid mixing unrelated work in the same pull request.
+
+## Mermaid Diagrams
+
+When adding Mermaid diagrams to Markdown files, follow [docs/MERMAID.md](docs/MERMAID.md). Keep diagrams simple, GitHub-compatible, and easy to review in pull requests.
