@@ -20,6 +20,8 @@ Good issues should include:
 - Acceptance criteria
 - Relevant context or links
 
+Use the Issue Forms in `.github/ISSUE_TEMPLATE` whenever possible. They are designed to capture the minimum detail needed before work starts.
+
 ## Pull Request Quality
 
 Good pull requests should include:
@@ -30,6 +32,14 @@ Good pull requests should include:
 - Screenshots or evidence when useful
 
 Avoid mixing unrelated work in the same pull request.
+
+## Project Board
+
+Use [docs/PROJECT_BOARD.md](docs/PROJECT_BOARD.md) for board columns, ready criteria, done criteria, and working rules.
+
+## Examples
+
+Use [docs/EXAMPLES.md](docs/EXAMPLES.md) as the reference for well-written issues and pull requests.
 
 ## Mermaid Diagrams
 
