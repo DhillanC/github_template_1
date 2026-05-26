@@ -1,6 +1,6 @@
 # GitHub Agile Planning Template
 
-Starter repository for practicing GitHub Issues, pull requests, and lightweight agile planning.
+Reusable starter repository for practicing GitHub Issues, pull requests, and lightweight agile planning.
 
 Use this template when you want a clean repository with ready-made issue and PR templates for a small project, lab, or learning exercise.
 
@@ -11,7 +11,9 @@ Use this template when you want a clean repository with ready-made issue and PR 
 - Bug report issue template
 - Technical task issue template
 - Pull request template
+- Contribution guide
 - Suggested workflow for moving work from issue to pull request
+- MIT license
 
 ## Recommended Workflow
 
@@ -32,6 +34,21 @@ Use **Feature Request** when the work is a new capability that still needs shapi
 Use **Bug Report** when something is broken or behaving unexpectedly.
 
 Use **Technical Task** for maintenance, setup, documentation, refactoring, or other work that does not directly describe user-facing value.
+
+## Branch Naming
+
+Recommended branch names:
+
+- `feature/short-description`
+- `bugfix/short-description`
+- `task/short-description`
+- `docs/short-description`
+
+Example:
+
+```text
+feature/add-weather-report
+```
 
 ## Pull Request Expectations
 
@@ -56,4 +73,4 @@ Move issues across the board as work progresses. Keep pull requests linked to th
 
 ## License
 
-No license has been selected yet. Add a `LICENSE` file before reusing this template for a public project that needs explicit licensing terms.
+This template is available under the MIT License. See [LICENSE](LICENSE).
