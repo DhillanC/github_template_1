@@ -12,7 +12,12 @@ Use this template when you want a clean repository with ready-made issue and PR 
 - Technical task issue template
 - Pull request template
 - Contribution guide
+- Project board guide
+- Example issues and pull requests
 - Mermaid diagram guidelines
+- Markdown validation workflow
+- Community health files
+- Changelog
 - Suggested workflow for moving work from issue to pull request
 - MIT license
 
@@ -35,6 +40,16 @@ Use **Feature Request** when the work is a new capability that still needs shapi
 Use **Bug Report** when something is broken or behaving unexpectedly.
 
 Use **Technical Task** for maintenance, setup, documentation, refactoring, or other work that does not directly describe user-facing value.
+
+## Guides
+
+- [Project Board Guide](docs/PROJECT_BOARD.md)
+- [Examples](docs/EXAMPLES.md)
+- [Mermaid Diagram Guidelines](docs/MERMAID.md)
+- [Contributing](CONTRIBUTING.md)
+- [Security Policy](SECURITY.md)
+- [Code of Conduct](CODE_OF_CONDUCT.md)
+- [Changelog](CHANGELOG.md)
 
 ## Branch Naming
 
@@ -72,6 +87,18 @@ For a simple project board, start with these columns:
 - Done
 
 Move issues across the board as work progresses. Keep pull requests linked to their issues so GitHub can track status automatically.
+
+For more detail, see the [Project Board Guide](docs/PROJECT_BOARD.md).
+
+## Validation
+
+This template includes a GitHub Actions workflow that validates Markdown on pull requests and pushes to `main`.
+
+The workflow checks:
+
+- Markdown style with `markdownlint`
+- Balanced Markdown code fences
+- Common Mermaid compatibility problems
 
 ## License
 
